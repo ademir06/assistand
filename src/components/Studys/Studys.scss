@@ -1,0 +1,20 @@
+.study {
+  background: #000;
+
+  &-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__img {
+      border: 30px solid #C89AFC;
+      width: 526px;
+      height: 499px;
+
+        img {
+        width: 446px;
+        margin: 60px 0 0 10px ;
+      }
+    }
+  }
+}
